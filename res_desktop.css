@@ -1,0 +1,59 @@
+@media screen and (min-width:769px){
+  body{
+    background-color: #ffcc99;
+    color:navy;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .check, #burguer{
+    display: none;
+  }
+  h1{
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+  #principal{
+    background-color: ;
+    text-align: center;
+    overflow: hidden;
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  ul{
+    margin: 30px 0;
+    padding: 0;
+  }
+  li{
+    float: left;
+    list-style-type: none;
+    width: 200px;
+    padding: 5px 0px;
+    margin: 0px 0px;
+    font-size: 0.5em;
+    line-height: 1em;
+  }
+  .secundari{
+    display: none;
+  }
+  #principal li:hover >.secundari{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.5em;
+    line-height: 1.2em;
+  }
+  #principal li{
+    font-size: 1.6em;
+    line-height: 1.4em;
+  }
+  .secundari li{
+    padding: 2px 0px;
+    margin: 0px;
+    border-bottom: solid 2px #fff;
+    color: #fff;
+  }
+}

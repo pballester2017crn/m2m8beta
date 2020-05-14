@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Futura";
+  src:url("fonts/Futura/Futura.otf");
+}
+@font-face {
+  font-family: "Futura-Heavy";
+  src:url("fonts/Futura/Futura-Heavy.otf");
+}
+body{
+  font-family: "Futura";
+}
+h1{
+  font-family: "Futura-Heavy";
+}
+@media screen and (max-width:480px){
+  body{background-color: red;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  }
+  #nav{
+    background-color: ;
+  }
+  h1{
+    background-color: ;
+    width: 200px;
+    float: right;
+    text-align: center;
+    margin-right: 70px;
+  }
+  .check{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    opacity: 0;
+  }
+  .check:checked ~ #principal{
+    left: 0;
+    transition: 1s;
+  }
+  #burguer{
+    width: 40px;
+    height: 40px;
+    background-color: ;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  #burguer li{
+    width: 30px;
+    height: 5px;
+    background-color: #FFF;
+    margin: 5px;
+    border-radius: 2.5px;
+    padding: 0;
+  }
+  li{
+    list-style-type: none;
+  }
+  #principal{
+    background-color: ;
+    padding-top:60px;
+    width: 100px;
+    position: absolute;
+    left:-100%;
+    z-index: -1;
+  }
+}
